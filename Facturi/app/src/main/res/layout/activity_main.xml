@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Switch
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SW_DM"
+        android:layout_marginLeft="120dp"
+        android:text="@string/dark_mode"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/IW_img" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_feedback"
+        android:drawableLeft="@drawable/ic_feedback"
+        android:text="@string/GiveUsAfeedback"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/color"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_facturi"
+        android:drawableLeft="@drawable/ic_facturi"
+        android:text="@string/facturi"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/color"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_furnizori"
+        android:drawableLeft="@drawable/ic_info"
+        android:text="@string/furnizori"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/color"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_statistica"
+        android:drawableLeft="@drawable/ic_statistica"
+        android:text="@string/statistica"
+        android:background="@color/cardview_shadow_end_color"
+        android:textColor="@color/color"/>
+
+
+</LinearLayout>

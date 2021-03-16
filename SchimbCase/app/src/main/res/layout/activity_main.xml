@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+   <Button
+       android:layout_width="200dp"
+       android:layout_height="40dp"
+       android:id="@+id/BTN1"
+       android:text="Adaugare oferta"
+       android:onClick="adaugaOferta"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/BTN2"
+        android:text="Lista oferte"
+        android:onClick="listaOferte"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/BTN3"
+        android:text="Preluare date"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/BTN4"
+        android:text="Centraizator"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/BTN5"
+        android:text="Despre"
+        android:onClick="despreApp"/>
+
+</LinearLayout>

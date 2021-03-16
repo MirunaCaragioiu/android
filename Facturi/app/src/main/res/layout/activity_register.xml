@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/ET_username"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:drawableLeft="@drawable/ic_login"
+        android:hint="@string/nume"/>
+
+    <EditText
+        android:id="@+id/ET_username2"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_login"
+        android:hint="@string/prenume"/>
+
+    <EditText
+        android:id="@+id/ET_emailR"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="@string/email_reg"/>
+
+    <EditText
+        android:id="@+id/ET_password"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint="@string/parolaR"/>
+
+
+    <Button
+        android:id="@+id/BTN_register"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/inregistrare"
+        android:background="@color/design_default_color_surface"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/ai_deja_cont"
+            android:textColor="@color/color"/>
+        <TextView
+            android:id="@+id/TW_login"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:text="@string/conecteaza_te"
+            android:textColor="@color/color"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

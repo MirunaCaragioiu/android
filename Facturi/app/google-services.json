@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1039363281713",
+    "firebase_url": "https://facturi-ef960.firebaseio.com",
+    "project_id": "facturi-ef960",
+    "storage_bucket": "facturi-ef960.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039363281713:android:ff45dc441e77b1c0015610",
+        "android_client_info": {
+          "package_name": "com.example.facturi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039363281713-2civflvsfan2fjh9ctnm9ihhr1aul3nu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facturi",
+            "certificate_hash": "cfb49aceca2411688a769d521a0fca429abfd9ab"
+          }
+        },
+        {
+          "client_id": "1039363281713-njvtqblpfvpe8ro4odvoqtio12822465.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvV2oNqbdP5eYDg0Gj7gbszw3hTb5BD1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039363281713-njvtqblpfvpe8ro4odvoqtio12822465.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

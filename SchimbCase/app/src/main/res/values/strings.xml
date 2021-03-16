@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SchimbCase</string>
+    <string name="user">Miruna</string>
+
+    <string-array name="tipLocuinta">
+        <item>Casa</item>
+        <item>Apartament</item>
+    </string-array>
+</resources>

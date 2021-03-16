@@ -1,0 +1,19 @@
+<resources>
+    <string-array name="tipClub">
+        <item>private</item>
+        <item>de stat</item>
+    </string-array>
+
+    <string name="app_name">Caragioiu_Miruna_DAM</string>
+    <string name="mesajInformare">Mesaj de informare</string>
+    <string name="adauga_club_baschet">Adauga club baschet</string>
+    <string name="denumire_club_baschet">Denumire club baschet</string>
+    <string name="numar_membrii_club">Numar membrii club</string>
+    <string name="anul_infiintarii_clubului">Anul infiintarii clubului</string>
+    <string name="salvare">Salvare</string>
+    <string name="mesajBunVenit">Bun venit pe aplicatia Clubului Sportiv</string>
+    <string name="denInvalida">Denumire invalida</string>
+    <string name="nrInvalid">Numar membrii invalid</string>
+    <string name="anInvalid">Anul de infiintare este invalid</string>
+    <string name="preluare_date_retea">Preluare date retea</string>
+</resources>
